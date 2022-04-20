@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_method_so_pk_inv_method_so_pk_inv,method_so_pk_inv.method_so_pk_inv,model_method_so_pk_inv_method_so_pk_inv,,1,0,0,0

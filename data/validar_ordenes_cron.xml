@@ -1,0 +1,13 @@
+<odoo>
+    <record model="ir.cron" id="validar_ordenes_cron">
+        <field name="name">Validar Ordenes de Venta en borrador</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="state">code</field>
+        <field name="code">model.valida_orden()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="active" eval="False"/>
+    </record>
+</odoo>
